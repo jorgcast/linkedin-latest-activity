@@ -2,7 +2,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "li-activity",
-    title: "Check user's recent activity",
+    title: chrome.i18n.getMessage("menuTitle"),
     contexts: ["link"], // Appears only when clicking on a link
   });
 });

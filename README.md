@@ -12,15 +12,10 @@ The target user won't be notified of your visit, as this is not their profile vi
 
 ## Installation
 
-Install the extension from the store:
-
-- Brave Store:
-- Chrome Store:
-
-## Installation in Dev Mode
+Not available in Chrome web store.
 
 1. Download the extension files or clone them from the repository.
-2. Open **Chrome** and go to **Extensions** (`chrome://extensions/`).
+2. Open **Chrome** or **Brave** and go to **Extensions** (`chrome://extensions/`) or (`brave://extensions/`).
 3. Enable **Developer Mode** in the top right corner.
 4. Click on **Load unpacked** and select the folder containing the extension files.
 5. The extension should now be installed and active.

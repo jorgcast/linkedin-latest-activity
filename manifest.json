@@ -1,13 +1,14 @@
 {
   "manifest_version": 3,
   "name": "Linkedin recent activity",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Adds a new item to the mouse contextual menu to see the latest activity of a user in LinkedIn.",
   "permissions": ["contextMenus", "tabs"],
   "background": {
     "service_worker": "background.js"
   },
   "host_permissions": ["*://linkedin.com/*"],
+  "default_locale": "en",
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
